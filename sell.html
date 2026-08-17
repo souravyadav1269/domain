@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Domain For Sale</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#f8fbff,#eef4ff);color:#172033;min-height:100vh}
+.container{width:min(900px,92%);margin:35px auto;padding:70px 30px;text-align:center;background:#fff;border:1px solid #e4e9f2;border-radius:28px;box-shadow:0 20px 60px #183b6715}
+.logo{width:75px;height:75px;margin:auto;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:34px;background:linear-gradient(135deg,#e8f3ff,#f3eaff);border:1px solid #d8e5ff;box-shadow:0 10px 30px #4d7cff22}
+h1{font-size:clamp(45px,8vw,80px);line-height:1.05;margin:40px 0 25px;font-weight:800;color:#182338}
+.gradient{background:linear-gradient(90deg,#147df5,#7057e8,#c43de8);-webkit-background-clip:text;color:transparent}
+.subtitle{font-size:19px;color:#68748a;line-height:1.7;max-width:650px;margin:auto}
+.line{width:170px;height:3px;margin:32px auto;background:linear-gradient(90deg,#1687ff,#7857e9,#d342e8);border-radius:10px}
+.contact{margin:45px auto 35px;padding:38px 25px;max-width:650px;border:1px solid #dce5f5;border-radius:22px;background:linear-gradient(135deg,#f8fbff,#faf7ff);box-shadow:0 15px 40px #345a8a12}
+.contact-title{letter-spacing:5px;font-size:13px;font-weight:bold;color:#71809a;margin-bottom:18px}
+.email{font-size:clamp(19px,4vw,30px);font-weight:600;color:#246ee8;word-break:break-word}
+.email a{color:inherit;text-decoration:none}
+.email a:hover{text-decoration:underline}
+.note{margin-top:15px;color:#8792a5}
+.features{display:flex;justify-content:center;gap:35px;flex-wrap:wrap;margin:45px 0;color:#4e5c72}
+.feature{display:flex;align-items:center;gap:9px;font-size:15px}
+.icon{font-size:21px;color:#327ff0}
+.bottom{margin-top:65px;color:#788397;font-size:17px}
+.cta{display:block;margin-top:15px;font-size:20px;letter-spacing:3px;font-weight:bold;background:linear-gradient(90deg,#147df5,#7657e8,#c43de8);-webkit-background-clip:text;color:transparent}
+.wave{height:80px;margin-top:35px;position:relative;overflow:hidden}
+.wave:before{content:"";position:absolute;width:120%;height:100px;left:-10%;bottom:-65px;border-radius:50% 50% 0 0;border-top:3px solid #8dbbff;box-shadow:0 -10px 35px #6a9fff22}
+@media(max-width:600px){
+.container{padding:50px 18px}
+.features{gap:20px}
+.feature{font-size:13px}
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="logo">🌐</div>
+
+<h1>This Domain<br><span class="gradient">is For Sale</span></h1>
+
+<div class="line"></div>
+
+<p class="subtitle">
+This premium domain is available for purchase.<br>
+Perfect for your business, brand, startup, or next big idea.
+</p>
+
+<div class="contact">
+<div class="contact-title">CONTACT</div>
+<div class="email">
+<a href="mailto:souravyadav1270@gmail.com">souravyadav1270@gmail.com</a>
+</div>
+<p class="note">Serious inquiries only, please.</p>
+</div>
+
+<div class="features">
+<div class="feature"><span class="icon">✓</span> Secure Transaction</div>
+<div class="feature"><span class="icon">✓</span> Trusted & Verified</div>
+<div class="feature"><span class="icon">⚡</span> Great Opportunity</div>
+</div>
+
+<div class="bottom">
+Don't miss the chance to own this amazing domain.
+<span class="cta">MAKE IT YOURS TODAY!</span>
+</div>
+
+<div class="wave"></div>
+
+</div>
+
+<script>
+document.querySelector(".email a").addEventListener("click",function(){
+console.log("Contact email opened");
+});
+</script>
+
+</body>
+</html>
